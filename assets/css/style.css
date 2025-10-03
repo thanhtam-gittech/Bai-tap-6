@@ -17,7 +17,7 @@ body {
 .bodyhead {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 20px 0;
 }
 .logo, .nav, .action {
@@ -31,6 +31,7 @@ a {
   text-decoration: none;
 }
 .logo {
+
   width: 200px;
   height: 60px;
 }
@@ -40,7 +41,7 @@ a {
   color: #333;
 }
 .nav {
-  flex: 1;          
+  width: 820px;         
   height: 34px;
   margin: 0 20px;
 }
@@ -73,8 +74,8 @@ a {
 .bodyhero {
   display: flex;
   gap: 30px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .div1, .div2 {
   background: #E2E2E2;
@@ -87,7 +88,7 @@ a {
   color: #333;
 }
 .div1 {
-  width: calc(50% - 15px);
+  width: 585px;
   height: 267px;
 }
 .div2 {
@@ -134,7 +135,7 @@ a {
   background: #F1F1F1;
 }
 
-.hero1 .bodyhero {
+.hero1 {
   justify-content: center;
   gap: 30px;
 }
