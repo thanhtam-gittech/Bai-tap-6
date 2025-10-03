@@ -76,6 +76,7 @@ a {
   gap: 30px;
   align-items: center;
   justify-content: center;
+  padding: 40px 0 60px;
 }
 .div1, .div2 {
   background: #E2E2E2;
@@ -96,7 +97,7 @@ a {
   height: 520px;
 }
 .title, .title1 {
-  margin: 40px auto 40px;
+  margin: 60px auto 40px;
   width: 600px;
   height: 80px;
   background: #E2E2E2;
