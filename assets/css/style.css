@@ -111,6 +111,7 @@ a {
   grid-template-columns: repeat(3, 380px);
   justify-content: center;
   gap: 30px;
+  padding: 0 20px;
 }
 .item {
   width: 380px;
