@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
   font-family: 'Be Vietnam Pro', sans-serif;
@@ -12,11 +11,12 @@ body {
   max-width: 1366px;
   margin: 0 auto;
 }
-
 .bodyhead {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 30px;
+  padding: 20px 0; 
 }
 .logo, .nav, .action {
   background: #E2E2E2;
@@ -25,9 +25,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-a {
-  text-decoration: none;
-}
+
 .logo {
   width: 200px;
   height: 60px;
@@ -38,21 +36,25 @@ a {
   color: #333;
 }
 .nav {
-  width: 820px;         
+  width: 820px;
   height: 34px;
-  margin: 0 30px;
-}
-.nav ul {
-  list-style: none;  
-  display: flex;
-  padding: 0;   
-  gap: 20px;          
 }
 .nav a {
   font-weight: 700;
   font-size: 20px;
   color: #333;
 }
+.nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
 .action {
   width: 120px;
   height: 42px;
@@ -64,29 +66,28 @@ a {
 }
 .hero {
   background: #F1F1F1;
-  padding: 40px 0;
+  padding: 40px 0; 
 }
-
 .bodyhero {
   display: flex;
   gap: 30px;
   align-items: center;
   justify-content: center;
-  padding: 40px 0 40px 0;
+  padding: 40px 0; 
 }
 .bodyhero1 {
   display: flex;
   gap: 30px;
   align-items: center;
   justify-content: center;
-  padding: 0 0 80px 0;
+  padding: 0 0 80px ; 
 }
 .bodyhero2 {
   display: flex;
   gap: 30px;
   align-items: center;
   justify-content: center;
-  padding: 0 0 40px 0;
+  padding: 0 0 20px; 
 }
 .div1, .div2 {
   background: #E2E2E2;
@@ -127,7 +128,7 @@ a {
   grid-template-columns: repeat(3, 380px);
   justify-content: center;
   gap: 30px;
-  padding: 0 0 80.1px 0;
+  padding-bottom: 80.1px;
 }
 .item, .item1, .item2 {
   width: 380px;
@@ -142,13 +143,8 @@ a {
   color: #333;
 }
 .hero1 {
-  padding: 0.1px 0;
   background: #F1F1F1;
-}
-
-.hero1 {
-  justify-content: center;
-  gap: 30px;
+  padding: 0.1px 0;
 }
 .item3, .item4, .item5, .item6 {
   width: 216px;
@@ -175,16 +171,11 @@ a {
   color: #333;
 }
 .footer {
-  margin-top: 40px;
+  margin-top: 20px;
   background: #D9D9D9;
   height: 72px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.ft {
   font-weight: 700;
-  font-size: 20px;
-  color: #333;
 }
